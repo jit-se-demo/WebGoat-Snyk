@@ -3497,7 +3497,7 @@ function Tooltip (parentNode) {
         this.getElement().textContent = text;
     };
     this.setHtml = function(html) {
-        this.getElement().innerHTML = html;
+        this.getElement().textContent = html;
     };
     this.setPosition = function(x, y) {
         this.getElement().style.left = x + "px";
